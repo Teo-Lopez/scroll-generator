@@ -1,0 +1,28 @@
+section {
+  display: flex;
+  justify-content: center;
+}
+
+.scroll_container {
+  position: relative;
+}
+
+.scroll_text {
+  position: absolute;
+  left: 116px;
+  top: 124px;
+  background: none;
+  width: 509px;
+  height: 751px;
+}
+
+@media print {
+  .no-print {
+    display: none;
+  }
+
+  .scroll_text {
+    border: none;
+    resize: none;
+  }
+}
